@@ -1,2 +1,19 @@
+/*
+  Main file project for scss
+*/
+
+/*
+  * All variables are in the file -> vars.scss
+  * Project Initial Settings. Reset Default Styles -> app.scss
+  * Canvas style settings for pages and blocks -> wrap.scss
+*/
 @import 'settings/vars';
 @import 'settings/app';
+@import 'settings/wrap';
+
+// Section site header and site navigation menu
+@import 'header/header';
+@import 'header/nav';
+
+// independent class - links -> links.scss
+@import 'links/links';

@@ -1,0 +1,25 @@
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 64px;
+  background-color: $gallery;
+  box-shadow: 0 0 20px 1px $lightGray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__box {
+    //display: flex;
+    //justify-content: space-between;
+    //position: relative;
+    //z-index: 3;
+    //height: 100%;
+    //align-items: center;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
