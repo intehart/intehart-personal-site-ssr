@@ -1,0 +1,43 @@
+.preview {
+  height: 100vh;
+  position: relative;
+
+  &__top,
+  &__bottom {
+    height: 50%;
+  }
+
+  &__top {
+    background-color: $gallery;
+    padding: 90px 0 0 0;
+  }
+  &__center {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top: 50%;
+    margin-top: -92px;
+  }
+  &__bottom {
+    background-color: $dustyGray;
+  }
+
+  &__first-name,
+  &__last-name {
+    font-weight: 600;
+    font-size: 120px;
+    text-transform: uppercase;
+  }
+
+  &__first-name {
+    line-height: 98px;
+    color: $dustyGray;
+  }
+  &__last-name {
+    line-height: 70px;
+    color: $gallery;
+    text-align: end;
+    text-align: -webkit-right;
+  }
+}

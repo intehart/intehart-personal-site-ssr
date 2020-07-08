@@ -8,4 +8,8 @@
   @media #{$phone} {
     padding: 8px;
   }
+
+  &--relative {
+    position: relative;
+  }
 }
