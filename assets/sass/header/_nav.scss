@@ -1,27 +1,17 @@
 .nav {
-  //position: absolute;
-  //transform: translateX(100%);
-  //transition: transform 0.3s;
-  //height: calc(100vh - 64px);
-  //width: 20%;
-  //background-color: #7F828B;
-  //top: 64px;
-  //right: 0;
-
-  &--active {
-    transform: translateX(0);
-  }
+  //&--active {
+  //  transform: translateX(0);
+  //}
 
   &__items {
     height: 100%;
     justify-content: center;
     align-items: center;
     display: flex;
-    flex-direction: column;
   }
   &__item {
     &:nth-child(n + 2) {
-      margin-top: 20px;
+      margin: 0 0 0 20px;
     }
   }
   &__link {
