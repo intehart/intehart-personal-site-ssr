@@ -1,0 +1,21 @@
+.icon {
+  width: 20px;
+  height: 20px;
+
+  &--nav-svg {
+    margin-right: 8px;
+  }
+  &--preview-svg {
+    height: 140px;
+    width: 140px;
+  }
+  &--js {
+    fill: #f7e01b;
+  }
+  &--vue {
+    fill: #66ac7d;
+  }
+  &--angular {
+    fill: #d70230;
+  }
+}
