@@ -1,43 +1,37 @@
 .preview {
-  height: 100vh;
   position: relative;
+  padding: 30px 0 10px;
 
-  &__top,
-  &__bottom {
-    height: 50%;
-  }
-
-  &__top {
-    background-color: $gallery;
-    padding: 90px 0 0 0;
-  }
-  &__center {
-    position: absolute;
+  &__items {
+    background-color: $black;
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px $lightGray;
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    top: 50%;
-    margin-top: -92px;
+    color: $white;
   }
-  &__bottom {
-    background-color: $dustyGray;
+  &__item {
+    flex: 1 1 100%;
+    padding: 15px 10px;
   }
+  &__headline {
+    font-size: 36px;
+  }
+  &__subheading {
+    font-size: 16px;
+    margin: 10px 0 0;
+  }
+  &__button {
+    margin: 10px 0 0;
+    border: 1px solid $white;
+    border-radius: 6px;
+    color: $white;
+    width: 240px;
+    height: 30px;
 
-  &__first-name,
-  &__last-name {
-    font-weight: 600;
-    font-size: 120px;
-    text-transform: uppercase;
-  }
-
-  &__first-name {
-    line-height: 98px;
-    color: $dustyGray;
-  }
-  &__last-name {
-    line-height: 70px;
-    color: $gallery;
-    text-align: end;
-    text-align: -webkit-right;
+    &:disabled {
+      color: $lightGray;
+      background-color: $gray;
+      cursor: no-drop;
+    }
   }
 }
