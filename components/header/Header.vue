@@ -2,7 +2,7 @@
   <header class="menu page">
     <div class="menu__box page__wrap">
       <div class="menu__logo">
-        <nuxt-link exact active-class="links--active" class="links" to="/">
+        <nuxt-link exact active-class="link--active" class="link" to="/">
           <icon-template class-name="icon icon--nav-svg" view-box="0 0 576 512">
             <icon-home />
           </icon-template>

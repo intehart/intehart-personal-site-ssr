@@ -2,15 +2,15 @@
   <nav class="nav">
     <ul class="nav__items">
       <li class="nav__item">
-        <nuxt-link to="/contacts" active-class="links--active" class="links">
+        <nuxt-link to="/contacts" active-class="link--active" class="link">
           <icon-template class-name="icon icon--nav-svg" view-box="0 0 512 512">
             <icon-contact />
           </icon-template>
-          Contacts
+          Contactssd
         </nuxt-link>
       </li>
       <li class="nav__item">
-        <nuxt-link to="/contacts" active-class="links--active" class="links">
+        <nuxt-link to="/contacts" active-class="link--active" class="link">
           <icon-template class-name="icon icon--nav-svg" view-box="0 0 576 512">
             <icon-blog />
           </icon-template>

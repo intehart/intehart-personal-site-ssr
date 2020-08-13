@@ -18,4 +18,19 @@
   &--angular {
     fill: #d70230;
   }
+  &--github {
+    fill: $white;
+  }
+  &--inst {
+    fill: $deepPink;
+
+  }
+  &--twitter {
+    fill: $dodgerBlue;
+  }
+  &--github,
+  &--inst,
+  &--twitter {
+    margin-right: 8px;
+  }
 }
