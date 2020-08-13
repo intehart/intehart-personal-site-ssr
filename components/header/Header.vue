@@ -6,7 +6,7 @@
           <icon-template class-name="icon icon--nav-svg" view-box="0 0 576 512">
             <icon-home />
           </icon-template>
-          Home Page
+          INTEHART
         </nuxt-link>
       </div>
       <Nav />

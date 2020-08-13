@@ -1,5 +1,5 @@
 <template>
   <div>
-    Contacts
+    Контакты
   </div>
 </template>
