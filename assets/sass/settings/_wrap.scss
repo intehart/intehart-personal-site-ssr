@@ -1,0 +1,22 @@
+.page {
+
+  &__wrap {
+    width: 1180px;
+    margin: 0 auto;
+
+    @media #{$only-tablet} {
+      padding: 24px;
+    }
+    @media #{$phone} {
+      padding: 8px;
+    }
+  }
+
+  &--main {
+    margin-top: 64px;
+  }
+
+  &--relative {
+    position: relative;
+  }
+}

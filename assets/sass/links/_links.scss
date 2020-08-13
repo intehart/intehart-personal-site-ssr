@@ -1,0 +1,12 @@
+.link {
+  color: $gray;
+  display: flex;
+  align-items: center;
+
+  &--active {
+    color: $black;
+  }
+  &--default {
+    color: $white;
+  }
+}
