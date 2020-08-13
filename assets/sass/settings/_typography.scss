@@ -1,0 +1,17 @@
+.typography {
+
+  &--heading {
+    font-size: 32px;
+    font-weight: bold;
+
+    @media #{$only-tablet} {
+      font-size: 24px;
+    }
+    @media #{$phone} {
+      font-size: 18px;
+    }
+  }
+  &__paragraph {
+
+  }
+}
