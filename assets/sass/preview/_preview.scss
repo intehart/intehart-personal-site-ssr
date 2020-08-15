@@ -8,6 +8,10 @@
     box-shadow: 10px 10px 20px $lightGray;
     display: flex;
     color: $white;
+
+    @media #{$tablet} {
+      flex-direction: column;
+    }
   }
   &__item {
     flex: 1 1 100%;

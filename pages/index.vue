@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Preview></Preview>
-    <Interview></Interview>
+    <Preview />
+    <Interview />
   </div>
 </template>
 

@@ -6,7 +6,9 @@
           <icon-template class-name="icon icon--nav-svg" view-box="0 0 576 512">
             <icon-blog />
           </icon-template>
-          Блог
+          <span class="nav__text">
+            Блог
+          </span>
         </nuxt-link>
       </li>
       <li class="nav__item">
@@ -14,7 +16,9 @@
           <icon-template class-name="icon icon--nav-svg" view-box="0 0 512 512">
             <icon-contact />
           </icon-template>
-          Контакты
+          <span class="nav__text">
+            Контакты
+          </span>
         </nuxt-link>
       </li>
     </ul>

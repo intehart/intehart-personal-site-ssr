@@ -1,11 +1,16 @@
 .page {
 
   &__wrap {
-    width: 1180px;
+    max-width: 1180px;
+    min-width: 320px;
+    width: 100%;
     margin: 0 auto;
 
+    @media #{$tablet} {
+      margin: 0;
+    }
     @media #{$only-tablet} {
-      padding: 24px;
+      padding: 16px;
     }
     @media #{$phone} {
       padding: 8px;

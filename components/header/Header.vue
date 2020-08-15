@@ -6,7 +6,9 @@
           <icon-template class-name="icon icon--nav-svg" view-box="0 0 576 512">
             <icon-home />
           </icon-template>
-          INTEHART
+          <span class="menu__text">
+            INTEHART
+          </span>
         </nuxt-link>
       </div>
       <Nav />

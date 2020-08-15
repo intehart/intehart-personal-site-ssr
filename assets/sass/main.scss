@@ -6,6 +6,7 @@
   * All variables are in the file -> vars.scss
   * Project Initial Settings. Reset Default Styles -> app.scss
   * Canvas style settings for pages and blocks -> wrap.scss
+  * Typography of the entire project -> typography.scss
 */
 @import 'settings/vars';
 @import 'settings/app';
@@ -23,5 +24,6 @@
 @import 'links/links';
 @import 'icon/icon';
 
-// Preview Section
+// Components
 @import 'preview/preview';
+@import 'interview/interview';
